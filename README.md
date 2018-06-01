@@ -28,4 +28,4 @@ $ python test_model.py
 ```
 
 # Altering the program
-The parameters for the autoencoder can be changes according to own dataset
+The parameters for the autoencoder can be changed according to own dataset
