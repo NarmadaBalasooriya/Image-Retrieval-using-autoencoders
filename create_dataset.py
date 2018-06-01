@@ -1,8 +1,7 @@
 # Author: Narmada Balasooriya #
-# Based on: chinelearninguru.com/deep_learning/data_preparation/hdf5/hdf5.html
+# Based on: machinelearninguru.com/deep_learning/data_preparation/hdf5/hdf5.html
 # ########################### #
-# This code was used to create a single hdf5 file for the 1.2 million
-# images given in the challenge
+# This code was used to create a single hdf5 file for the 1.2 million images given in the challenge
 # ########################### #
 
 from random import shuffle
@@ -76,6 +75,7 @@ mean = np.zeros(data_shape[1:], np.float32)
 
 print('start for loop')
 # loop over the images and append each image to the EArray
+
 for i in range(len(train_images)):
 
 	img_addr = train_images[i]
